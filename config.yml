@@ -1,0 +1,20 @@
+title: BITCOIN ONLINE TRADING
+description: >-
+  Am a mining contract agent and also a branch account manager to precise,
+  registered to mining and crypto and trading platform (brokerage), we are into
+  bitcoin mining, bitcoin trading,Forex Trading and  investments, i mine bitcoin
+  with a various capacity
+template:
+  repo: bitcoin-online-trading-template
+  name: bitcoin-online-trading
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
